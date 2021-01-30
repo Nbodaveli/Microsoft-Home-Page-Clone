@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale = 1">
+    <title>CSS Flexbox</title>
+    <style>
+        .item1 {
+    /* To correctly align image, regardless of content height: */
+    vertical-align: top;
+    display: inline-block;
+    /* To horizontally center images and caption */
+    text-align: center;
+    /* The width of the container also implies margin around the images. */
+    width: 120px;
+}
+    .item2 {
+    width: 40px;
+    height: 40px;
+    background-color: grey;
+}
+.item3 {
+    /* Make the caption a block so it occupies its own line. */
+    display: block;
+}
+
+    </style>
+  </head>
+
+  <body>
+    <div class="item1">
+        <img class="item2" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4sQDc?ver=30c2&q=90&m=6&h=40&w=40&b=%23FFFFFFFF&l=f&o=t&aim=true"/>
+        <div class="item3">Choose Your Microsoft 365</div>
+    </div>
+  </body>
+</html>
